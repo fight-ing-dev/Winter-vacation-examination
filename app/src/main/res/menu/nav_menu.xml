@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+       <item
+           android:id="@+id/collection"
+           android:icon="@drawable/ic_stars_black_24dp"
+           android:title="我的收藏"/>
+
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_add_alert_black_24dp"
+            android:title="消息中心"/>
+        <item
+            android:id="@+id/opinion"
+            android:icon="@drawable/ic_rate_review_black_24dp"
+            android:title="意见反馈"/>
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="帮助中心"/>
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_applications_black_24dp"
+            android:title="设置"/>
+    </group>
+
+
+
+</menu>

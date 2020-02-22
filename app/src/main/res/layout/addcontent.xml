@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_height="500dp"
+        android:layout_width="300dp"
+        android:visibility="gone"
+        android:id="@+id/c_img"/>
+
+    <VideoView
+        android:layout_height="500dp"
+        android:layout_width="300dp"
+        android:visibility="gone"
+        android:id="@+id/c_video"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/ettext"
+        android:hint="小可爱，有了记事本，你再也不会忘记事情了"
+        android:gravity="top"
+        android:background="@null"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/save"
+            android:layout_weight="1"
+            android:text="保存"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/delete"
+            android:layout_weight="1"
+            android:text="取消"/>
+
+    </LinearLayout>
+</LinearLayout>
